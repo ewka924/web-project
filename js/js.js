@@ -38,22 +38,21 @@ wraper[0].addEventListener('mousemove' , function(e){
 function Scroll(e)
 {
 const element = document.querySelectorAll(".benefitImg");
-const element2 = document.querySelectorAll(".benefitImg2"); //nodelist obrazkow
  //nodelist obrazkow
-
 var position = window.pageYOffset;
-
 console.log(position);
 
-if(position == 700){
+if((position > 600 && position < 1700) || (position > 4600 && position < 5500 )){
 	element.forEach(el => {
-		el.classList.add("benefitImgFade");
+		el.classList.add("benefitImgFade")
 	});
-}else if(position == 4300){
-	element2.forEach(el => {
-		el.classList.add("benefitImgFade");
-});
+}else{
+	element.forEach(el => {
+		el.classList.remove("benefitImgFade")
+	});
 }
+
+
 }
 window.addEventListener('scroll', Scroll);
 

@@ -320,3 +320,181 @@ background-position: 0 100%;
 	padding-top:5%;
 }
 
+.galleryColumn{
+	padding:0;
+}
+
+.gallery{
+	width:100%;
+	margin:0;
+	padding: 0;
+}
+
+.gallery img {
+	width:inherit;
+}
+
+.backgroundForm{
+	background-color:  #133837;
+}
+
+.formContainer{
+	text-align: center;
+	color:#fff;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+.formInputsContainer{
+	width:80%;
+	padding-top:5%;
+}
+
+
+.formInputs input{
+		display:flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width:100%;
+		background-color: transparent;
+		border-bottom: solid 1px #fff !important;
+		border:none;
+		color:#fff;
+		font-weight: 300;
+		padding-top:15px;
+		padding-bottom:15px;
+
+
+}
+
+.formInputs input:focus{
+	outline:none;
+}
+
+.rowForm{
+	padding-top:5%;
+	padding-bottom: 5%;
+}
+
+.buttonForm{
+	float:none;
+	margin-top:5%;
+}
+.footerRow{
+	padding-top:5%;
+	padding-bottom:5%;
+}
+
+.footerTxt{
+	padding-right:10%;
+
+}
+.link{
+	text-decoration: none;
+	color: #133837;
+}
+.socialIcon{
+	padding-top:5%;
+	padding-bottom:5%;
+}
+.socialIcon i{
+	font-size:30px;
+}
+
+.mapaStrony{
+	float:left;
+	display:inline;
+	width:49%;
+
+}
+
+.mapaStrony ul{
+	list-style: none;
+	margin-left:-8%;
+}
+
+.mapaStrony p{
+	padding-right:10%;
+}
+
+.zielonyContainer{
+	background-color: #133837;
+	padding:5%;
+	float:left;
+	width:49%;}
+
+.zielonyText{
+	color:#fff;
+	padding:5%;
+}
+
+.orangeRectfooter{
+	width: 100px;
+	height: 10px;
+	position:relative;
+	left: 75%;
+	bottom:21%;
+	}
+
+.endFooter{
+	background-color: #133837;
+	padding: 3% 3%;
+	padding-left:15%;
+
+}
+.endFooter p{
+	color:#fff;
+}
+
+
+
+/*media query*/
+
+@media screen and (max-width: 500px){
+	.heder-text{
+		width:auto;
+		height:auto;
+		left:0;
+	}
+
+	 h1, h2{
+		font-size:20px;
+	}
+
+	p{
+		font-size:15px;
+	}
+	.orangeRect{
+		left:0;
+		bottom:0;
+		width:auto;
+	}
+
+	.button{
+		float:none;
+	}
+
+	.colRight{
+		margin-top:15%;
+	}
+	.offer1, .offer2 {
+		padding:10%;
+	}
+
+	.footerRow{
+		padding:5%;
+	}
+	.mapaStrony{
+		float:none;
+	}
+	.zielonyContainer{
+		width:auto;
+	}
+
+	.orangeRectfooter{
+		left:0;
+		width:100%;
+	}
+}
